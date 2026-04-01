@@ -1,6 +1,7 @@
 # github actions workflow to build and 
 # push docker image to main
 name: Build and Push Docker Image
+# Add manually to trgger the workflow
 on:
   push:
     branches: [ main ]
